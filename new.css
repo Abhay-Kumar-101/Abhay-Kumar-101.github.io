@@ -22,6 +22,7 @@ nav{
   column-gap: 60px;
 }
 
+
 .logo {
   width: 350px;
   height: 0.41;
@@ -36,7 +37,12 @@ nav{
 button{
     background-color: none;
 }
+.col{display: flex;
+  flex-direction: x; 
+  height: 700px;
+   width: 100%;
 
+}
 .box {
     width: min-content;
   margin: 20px 20px 5px 20px;
@@ -98,6 +104,8 @@ a {
     display: flex;
     flex-direction: y ;
     justify-content:center;
+    margin-top: 0px ;
+    width: fit-content;
 }
 .smallfont{
     font-size: small;
@@ -106,10 +114,20 @@ a {
     height: max-content;
 
 }
+.section1{
+  width: 100%;
+  height: 1500px;
+  background-color: rgb(255, 255, 255);
+
+}
 .a1{
     display:flex;
     flex-direction: row;
     width: min-content;
+    width:700px;
+    height: 100px;
+    justify-content:left; 
+    gap: 20px;
     
 }
 .head2{
@@ -123,3 +141,53 @@ a {
     gap: 20px; 
     border-bottom: px black solid; 
 }
+.subsection1{
+  background-color: rgb(255, 255, 255);
+  width: max-content; 
+  justify-content:right;
+
+}
+@media (max-width:600px){
+  .headcontainer{
+    
+    grid-template-rows: repeat(7,40px);
+    grid-template-columns: min-content;
+    grid-area:auto;
+    margin-left: 0%;
+  }
+  a{
+    font-size: 10px;
+  }
+  .line{
+    width: 175px;
+    border-right: none;
+  }
+  .section1{
+   
+    width: 500px;
+    height: min-content;
+  }
+  .sub{
+    width: 100%;
+    height: max-content;
+  }
+  .head2{
+    width: 100%;
+    height: max-content;
+
+  }
+  .menu1{
+    height: min-content;
+  }
+  .col{
+    height: 400px;;
+  }
+
+
+
+
+
+  }
+
+  
+
