@@ -143,9 +143,27 @@ a {
 }
 .subsection1{
   background-color: rgb(255, 255, 255);
-  width: max-content; 
   justify-content:right;
 
+}
+.ph1{
+  font-size: 50px;
+  padding: 10px;
+
+}
+.phh{
+  font-size: 80px;
+}
+.slashes2{
+  width: 500px;
+
+}
+.mark{
+  width: 650px; 
+  height: 300px;
+  justify-self: left; 
+  margin-left: 150px;
+  position: relative;
 }
 @media (max-width:600px){
   .headcontainer{
@@ -172,8 +190,9 @@ a {
     height: max-content;
   }
   .head2{
-    width: 100%;
+    width: 50%;
     height: max-content;
+    
 
   }
   .menu1{
@@ -182,12 +201,28 @@ a {
   .col{
     height: 400px;;
   }
-
-
-
-
-
+  .ph1{
+    font-size: 30px;
   }
+  .phh{
+    font-size: 40px;
+    width:500px;
+  }
+  .slashes2{
+    width: 200px;
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+  
 
   
 
