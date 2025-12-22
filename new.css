@@ -78,7 +78,8 @@ a {
   flex-direction: column;
   margin: 0px 100px 0px 0px;
   background-color: rgb(255, 255, 255);
-  transition-property: tranrt;
+  
+
 }
 .slashes {
   position: absolute;
@@ -139,7 +140,7 @@ a {
     margin-right: 200px;
     margin-left: 200px;
     gap: 20px; 
-    border-bottom: px black solid; 
+    border-bottom: 1px black solid; 
 }
 .subsection1{
   background-color: rgb(255, 255, 255);
@@ -152,9 +153,10 @@ a {
 
 }
 .phh{
-  font-size: 80px;
+  font-size: 90px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.slashes2{
+.slashes2{ 
   width: 500px;
 
 }
@@ -165,6 +167,101 @@ a {
   margin-left: 150px;
   position: relative;
 }
+.forhover{
+  align-content: center;
+  justify-content: center; 
+  height: 130px; 
+  width:250px;
+  border-radius:70px; 
+  border: 2px solid black; 
+  padding-left:10%;
+}
+.cta-btn {
+  width: 200px;
+  height: 65px;
+  background: #f8f7fa;   /* purple */
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content:stretch;
+  padding:  30px;
+  color: rgb(0, 0, 0);
+  border: 1px black solid ;
+  
+  font-size: 20px;
+  cursor: pointer;
+
+  /* smooth animation */
+  transition: all 0.3s ease;
+}
+.inbox{
+  color: black ;
+}
+
+/* TEXT */
+.cta-btn span {
+  pointer-events: none;
+}
+
+/* PLUS ICON */
+.cta-btn .plus {
+  font-size: 28px;
+  transition: transform 0.3s ease;
+}
+
+/*  HOVER EFFECT */
+.cta-btn:hover {
+  background: #9f6ed6;          /* darker purple */
+  transform: scale(1.05);       /* zoom effect */
+  box-shadow: 0 10px 30px rgba(181, 139, 230, 0.5);
+  color: aliceblue;
+  filter: drop-shadow(100%);
+
+
+}
+.headfacts{
+  display: flex;
+  flex-direction: x;
+  padding: 20px;
+  margin: 10px;
+  width:78%;
+  height:300px;
+  border-bottom: 1px black solid;
+  margin-left:170px;
+  padding-top: none;
+  margin-top: 0%;
+ 
+ 
+}
+.fatcs{
+  padding: 50px;
+  display: flex;
+  flex-direction:column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  width: 200px;
+  margin: 3px;
+  
+
+}
+.ap{
+  border-bottom: 1px solid black;
+  width: min-content;
+}
+.bb{
+  font-size: 50px;
+}
+.f1{
+  padding: 20px;
+}
+.factdeails{
+  font-size:50px;
+  width:200px;
+}
+
+
+
+
 @media (max-width:600px){
   .headcontainer{
     
@@ -192,6 +289,7 @@ a {
   .head2{
     width: 50%;
     height: max-content;
+    padding-bottom: 20px;
     
 
   }
@@ -202,7 +300,7 @@ a {
     height: 400px;;
   }
   .ph1{
-    font-size: 30px;
+    font-size: 20px;
   }
   .phh{
     font-size: 40px;
@@ -211,9 +309,34 @@ a {
   .slashes2{
     width: 200px;
   }
+  .headfacts{
+  display: flex;
+  flex-direction:row;
+  height: fit-content;
+  }
+  .fatcs{
+  padding: 10px;
+  display: flex;
+  flex-direction:column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 10px;
+  width: 200px;
+  margin: 3px;
   
-  
-  
+
+}
+.bb{
+  font-size: 20px;
+}
+.f1{
+  padding: 10px;
+}
+.factdeails{
+  font-size:10px;
+  width:200px;
+
+}
+
   
 }
 
